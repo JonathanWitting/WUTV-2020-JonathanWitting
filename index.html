@@ -1,0 +1,89 @@
+<!-- Main-Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> Gammal --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Main Page</title>
+
+    <style>
+        .jumbotron {
+            background-color:white;
+            color:black;
+            padding: 0;
+        }
+        
+
+        ul {
+            list-style-type: none;
+        }
+        nav{
+            background-color: black;
+            height: 50px;
+        }
+        nav a,p{
+            color: white;
+            margin-left:10px ;
+        }
+        .dropdown-toggle-text{
+            color: black;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- nav class="navbar navbar-expand-lg navbar-light bg-dark" -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a href="/"><span style="font-weight:bold"><img style="width: 100px;" src="https://cdn.discordapp.com/attachments/679239309500350484/679314151994032128/yeetdab.jpg" alt=""></a>
+            <a href="InternetsHistoria/InfoSidor/infoMain.html"><span style="font-weight:bold"><font size = "3">Internets Historia</font></span></a>
+          </div>
+     
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Jonathan<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a class = "dropdown-toggle-text" href="Main/Jonathan/aboutMe.html">About Me</a></li>
+                  <li><a class = "dropdown-toggle-text" href="Main/Jonathan/contact.html">Contact Me</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
+                 <ul class="dropdown-menu">
+                    <li><a class = "dropdown-toggle-text" href="Main/Projects/Games/gamesMain.html">Games</a></li>
+                    <li><a class = "dropdown-toggle-text" href="Main/Projects/Other/tempOtherMain.html">Others</a></li>
+                </ul>
+            <li>
+          </ul>
+        </div>
+      </nav>
+
+    <h1>Jonathan WJ - Main-Page</h1>
+
+    <!-- <nav>
+        <a href="InfoSidor/infoMain.html"><button>InfoSidor</button></a>
+    </nav> -->
+
+    <div class="jumbotron text-center">
+        <!-- Body Content Here -->
+        {% block bodycontent %}
+        {% endblock bodycontent %}
+
+        <footer>
+            <p>längst ner på sidan</p>
+        </footer>    
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
