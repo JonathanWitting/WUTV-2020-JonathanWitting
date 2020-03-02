@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 
+body {
+    background-color: black;
+}
+
 button {
     width: 10%;
     margin-left: 45%;
