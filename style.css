@@ -2,7 +2,7 @@
 /* Bootstrap Begin */
 .jumbotron {
     background-color:white;
-    color:black;
+    color: gray;
     padding: 0;
 }
 
@@ -14,7 +14,7 @@ nav{
     background-color: black;
     height: 50px;
 }
-nav a,p{
+nav a {
     color: white;
     margin-left:10px ;
 }
@@ -28,7 +28,12 @@ h1 {
 }
 
 body {
-    background-color: black;
+    background-color: white;
+}
+
+footer {
+    color: black;
+    text-align: center;
 }
 
 button {
