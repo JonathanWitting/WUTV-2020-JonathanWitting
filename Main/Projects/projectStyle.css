@@ -21,6 +21,16 @@ nav a {
 }
 /* Bootstrap End */
 
+/* Projects Begin */
+.projectCards {
+    display: inline-flex;
+    text-align: center;
+}
+.li:nth-child(odd) {
+    display: unset;
+}
+/* Projects End */
+
 h1 {
     text-align: center;
 }
